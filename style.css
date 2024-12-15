@@ -19,7 +19,7 @@ body {
 
 /* Styling untuk header (gambar headline) */
 .headline-img {
-  width: 80%;
+  width: 35%;
   max-width: 600px; /* Sesuaikan ukuran gambar */
   height: auto;
   margin-bottom: 40px;
@@ -29,7 +29,7 @@ body {
 .card {
   background-color: #ffffff;
   border-radius: 60px;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1);
   padding: 30px 40px;
   max-width: 500px;
   margin-bottom: 30px; /* Memberikan jarak antara box pertanyaan dan tombol */
