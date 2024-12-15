@@ -1,0 +1,60 @@
+/* Reset beberapa default style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style untuk body */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Styling untuk header (gambar headline) */
+.headline-img {
+  width: 80%;
+  max-width: 600px; /* Sesuaikan ukuran gambar */
+  height: auto;
+  margin-bottom: 40px;
+}
+
+/* Style untuk box pertanyaan */
+.card {
+  background-color: #ffffff;
+  border-radius: 60px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  padding: 30px 40px;
+  max-width: 500px;
+  margin-bottom: 30px; /* Memberikan jarak antara box pertanyaan dan tombol */
+}
+
+/* Styling untuk teks pertanyaan */
+.question {
+  font-size: 24px;
+  font-weight: 800;
+  color: #1b2cd3;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* Styling untuk tombol NEXT CARD */
+#next-btn {
+  background-color: #1b2cd3;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#next-btn:hover {
+  background-color: #0f1f8c;
+}
